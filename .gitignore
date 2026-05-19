@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.toast
+.lucid
+.ipynb_checkpoints
+
+# YOLO / Ultralytics
+# Ignore everything in runs except train-7                                                                                                           
+runs/*                                                                                                                                               
+!runs/detect/                                                                                                                                      
+runs/detect/*                                                                                                                                        
+!runs/detect/train-7/ 
+
+# Keep model weights but ignore large engines/onnx if preferred                                                                                    
+# !runs/detect/train-7/weights/*.pt                                                                                                            
+*.engine   
+
+# Project Specific
+build/
+outputs/
+videos/
+*.mp4
+# trapezoid_filter.cpython*
+# explained.png
+
+# Datasets (kept as requested)
+newdataset/
+train/
+valid/
+test/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+train   v26n
+train-2 v26s
+train-3 v26s + finetuning
+train-4 v8n
+train-5 v11n
+train-7 v26s + own dataset
